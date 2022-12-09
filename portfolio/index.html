@@ -7,10 +7,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Maps, Infographics, Graphs and Data Vizualizations mostly of Rhode Island">
-    <meta name="author" content="SmirkyGraphs">
+    <meta name="description" content="Visualizations">
+    <meta name="author" content="AAAS24">
 
-    <title>SmirkyGraphs | Portfolio and Graphs</title>
+    <title>AAAS24| Portfolio and Graphs</title>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="../img/favico/apple-touch-icon.png">
@@ -45,23 +45,23 @@
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                   <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
               </button>
-              <a class="navbar-brand page-scroll"><img id="logo" src="../img/logo.png" align="left">SmirkyGraphs</a>
+              <a class="navbar-brand page-scroll"><img id="logo" src="../img/logo.png" align="left">AAAS24</a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="https://aaas24.io/">Home</a>
+                    <a class="page-scroll" href="https://web.aaas24.io/">Home</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="portfolio/">Portfolio</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="https://aaas24.io/blog.html">Blog</a>
+                    <a class="page-scroll" href="https://web.aaas24.io/blog.html">Blog</a>
                 </li>
                 <li>
-                  <a class="page-scroll" href="https://github.com/aaas24/code_library">Code Library<l/a>
+                  <a class="page-scroll" href="https://github.com/aaas24/code_library">Code Library</a>
                   </li>
               </ul>
           </div>
@@ -88,7 +88,7 @@
             <button class="filter" data-filter=".tableau">Tableau</button>
             <!-- <button class="filter" data-filter=".infographics">Infographics</button> -->
             <button class="filter" data-filter=".python">Python</button>
-            <button class="filter" data-filter=".misc">Misc</button>
+            <!-- <button class="filter" data-filter=".misc">Misc</button> -->
 
   <label>Sort:</label>
 
@@ -100,22 +100,39 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="portfolio">
-            <div class="mix misc col-md-4 col-xs-6" data-myorder="1">
-                      <a href="https://drive.google.com/uc?export=download&id=0B4cwlDD-rn2mNW1wY01PSXd4N3M" class="portfolio-box">
-                          <img src="../img/thumbs/warwick_crime_table.jpg" class="img-responsive" alt="">
-                          <div class="portfolio-box-caption">
-                              <div class="portfolio-box-caption-content">
-                                  <div class="project-category text-faded">
-                                  </div>
-                                  <div class="project-name">
-                                      Warwick Crime <br>Excel</br>
-                                  </div>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-              </div>
-        <div class="portfolio">
+            <div class="mix tableau col-md-4 col-xs-6" data-myorder="1">
+                    <a href="./viz/ted-talks" class="portfolio-box">
+                        <img src="../img/thumbs/ted-talks.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                </div>
+                                <div class="project-name">
+                                    Ted Talks <br>Breakdown</br>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        </div> 
+        <div class="mix python col-md-4 col-xs-6" data-myorder="14">
+            <a href="./python-notebooks/wikipedia" class="portfolio-box">
+                <img src="../img/thumbs/wikipedia.jpg" class="img-responsive" alt="">
+                <div class="portfolio-box-caption">
+                    <div class="portfolio-box-caption-content">
+                        <div class="project-category text-faded">
+                        </div>
+                        <div class="project-name">
+                            Wikipedia
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+        <!-- <div class="portfolio">
+        <div class="mix misc col-md-4 col-xs-6" data-myorder="2"> -->
+        <!-- <div class="portfolio">
             <div class="mix misc col-md-4 col-xs-6" data-myorder="2">
                       <a href="./infographics/vets-football" class="portfolio-box">
                           <img src="../img/thumbs/vets_football.jpg" class="img-responsive" alt="">
@@ -1589,20 +1606,20 @@
                             </div>
                     <div class="portfolio">
                         <div class="mix tableau col-md-4 col-xs-6" data-myorder="94">
-                                    <a href="./viz/dunkins-locations-analysis" class="portfolio-box">
-                                        <img src="../img/thumbs/dunkins-locations.png" class="img-responsive" alt="">
-                                        <div class="portfolio-box-caption">
-                                            <div class="portfolio-box-caption-content">
-                                                <div class="project-category text-faded">
-                                                </div>
-                                                <div class="project-name">
-                                                    Dunkin' Locations <br>Breakdown</br>
-                                                </div>
+                                <a href="./viz/dunkins-locations-analysis" class="portfolio-box">
+                                    <img src="../img/thumbs/dunkins-locations.png" class="img-responsive" alt="">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="project-category text-faded">
+                                            </div>
+                                            <div class="project-name">
+                                                Dunkin' Locations <br>Breakdown</br>
                                             </div>
                                         </div>
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
                             </div>
+                    </div> -->
         
 
 
@@ -1636,7 +1653,7 @@
     <script src="../js/creative.min.js"></script>
 
     <!-- Google Analytics -->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-106762433-2']);
@@ -1650,7 +1667,7 @@
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(ga, s);
         })();
-    </script>
+    </script> -->
     <!-- End Google Analytics Code -->
 
 
